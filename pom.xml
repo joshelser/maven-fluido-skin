@@ -29,28 +29,32 @@ under the License.
     <relativePath>../maven-skins/pom.xml</relativePath>
   </parent>
 
+  <groupId>com.github.joshelser</groupId>
   <artifactId>maven-fluido-skin</artifactId>
-  <version>1.4</version>
+  <version>1.4-HBase-SNAPSHOT</version>
 
   <name>Apache Maven Fluido Skin</name>
-  <description>The Apache Maven Fluido Skin is an Apache Maven site skin
-    built on top of Twitter's bootstrap.</description>
+  <description>Fork of The Apache Maven Fluido Skin.</description>
   <inceptionYear>2011</inceptionYear>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/skins/tags/maven-fluido-skin-1.4</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/skins/tags/maven-fluido-skin-1.4</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/skins/tags/maven-fluido-skin-1.4</url>
+    <connection>scm:git:https://github.com/joshelser/maven-fluido-skin.git</connection>
+    <developerConnection>scm:git:git@github.com:joshelser/maven-fluido-skin.git</developerConnection>
+    <url>https://github.com/joshelser/maven-fluido-skin</url>
   </scm>
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/MSKINS/component/12326474</url>
   </issueManagement>
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
-    </site>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
   </distributionManagement>
 
   <contributors>
