@@ -34,15 +34,13 @@ under the License.
   <version>1.7-HBase-SNAPSHOT</version>
 
   <name>Apache Maven Fluido Skin</name>
-  <description>The Apache Maven Fluido Skin is an Apache Maven site skin
-    built on top of Twitter's bootstrap.</description>
+  <description>Fork of The Apache Maven Fluido Skin.</description>
   <inceptionYear>2011</inceptionYear>
 
   <scm>
-    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git</connection>
-    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git</developerConnection>
-    <url>https://github.com/apache/maven-fluido-skin/tree/${project.scm.tag}</url>
-    <tag>maven-fluido-skin-1.7</tag>
+    <connection>scm:git:https://github.com/joshelser/maven-fluido-skin.git</connection>
+    <developerConnection>scm:git:git@github.com:joshelser/maven-fluido-skin.git</developerConnection>
+    <url>https://github.com/joshelser/maven-fluido-skin</url>
   </scm>
   <issueManagement>
     <system>jira</system>
@@ -53,10 +51,14 @@ under the License.
     <url>https://builds.apache.org/view/M-R/view/Maven/job/maven-fluido-skin/</url>
   </ciManagement>
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
-    </site>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
   </distributionManagement>
 
   <contributors>
