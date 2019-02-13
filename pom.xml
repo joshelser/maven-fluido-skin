@@ -31,7 +31,7 @@ under the License.
 
   <groupId>com.github.joshelser</groupId>
   <artifactId>maven-fluido-skin</artifactId>
-  <version>1.8-HBase-SNAPSHOT</version>
+  <version>1.7.1-HBase-SNAPSHOT</version>
 
   <name>Apache Maven Fluido Skin</name>
   <description>Fork of The Apache Maven Fluido Skin.</description>
