@@ -29,8 +29,9 @@ under the License.
     <relativePath>../../pom/maven/maven-skins/pom.xml</relativePath>
   </parent>
 
+  <groupId>com.github.joshelser</groupId>
   <artifactId>maven-fluido-skin</artifactId>
-  <version>1.7</version>
+  <version>1.7-HBase-SNAPSHOT</version>
 
   <name>Apache Maven Fluido Skin</name>
   <description>The Apache Maven Fluido Skin is an Apache Maven site skin
