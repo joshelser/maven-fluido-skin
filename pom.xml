@@ -31,7 +31,7 @@ under the License.
 
   <groupId>com.github.joshelser</groupId>
   <artifactId>maven-fluido-skin</artifactId>
-  <version>1.7.1-HBase</version>
+  <version>1.7.2-HBase-SNAPSHOT</version>
 
   <name>Apache Maven Fluido Skin</name>
   <description>Fork of The Apache Maven Fluido Skin.</description>
@@ -41,7 +41,7 @@ under the License.
     <connection>scm:git:https://github.com/joshelser/maven-fluido-skin.git</connection>
     <developerConnection>scm:git:git@github.com:joshelser/maven-fluido-skin.git</developerConnection>
     <url>https://github.com/joshelser/maven-fluido-skin</url>
-    <tag>maven-fluido-skin-1.7.1-HBase</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
